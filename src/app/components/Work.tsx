@@ -10,12 +10,12 @@ const projects = [
     tags: ['Next.js', 'TypeScript', 'Framer Motion'],
     emoji: '🌐',
   },
-  {
-    title: 'Mobile App',
-    description: 'Cross-platform mobile application built with React Native and Expo for iOS and Android.',
-    tags: ['React Native', 'Expo', 'Redux'],
-    emoji: '📱',
-  },
+  // {
+  //   title: 'Mobile App',
+  //   description: 'Cross-platform mobile application built with React Native and Expo for iOS and Android.',
+  //   tags: ['React Native', 'Expo', 'Redux'],
+  //   emoji: '📱',
+  // },
   {
     title: 'E-Commerce Platform',
     description: 'Full-stack e-commerce solution with real-time inventory, payments, and admin dashboard.',
@@ -133,6 +133,54 @@ export default function Work() {
               </div>
             </motion.div>
           ))}
+
+          {/* Show More Card */}
+          <motion.a
+            href="/projects"
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: projects.length * 0.12 }}
+            whileHover={{ y: -4, backgroundColor: 'rgba(255,255,255,0.03)' }}
+            style={{
+              background: 'var(--bg-card)',
+              border: '1px dashed var(--border)',
+              borderRadius: '16px',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '2rem',
+              cursor: 'pointer',
+              textDecoration: 'none',
+              minHeight: '340px',
+              transition: 'border-color 0.2s',
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)')}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'var(--border)')}
+          >
+            <div style={{
+              width: '60px',
+              height: '60px',
+              borderRadius: '50%',
+              background: 'var(--accent-bright)',
+              color: 'var(--bg-primary)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              marginBottom: '1rem',
+            }}>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+            <span style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--text-primary)', letterSpacing: '-0.02em' }}>
+              Show More
+            </span>
+            <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.4rem' }}>
+              View all 5+ projects
+            </span>
+          </motion.a>
         </div>
       </div>
     </section>
