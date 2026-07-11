@@ -6,20 +6,20 @@ import Link from 'next/link';
 
 const allProjects = [
   {
-    title: 'Modern Portfolio Platform',
+    title: 'Wibbitz UI Clone Project',
     category: 'Web Development',
-    description: 'A dark-themed, ultra-responsive portfolio platform built with Next.js 15, Framer Motion, and Tailwind CSS.',
-    image: '/project1.png',
-    link: '#',
-    year: '2026',
+    description: 'A modern UI clone of Wibbitz, built with Next.js and Tailwind CSS, showcasing responsive design and interactive components.',
+    image: '/p1.png',
+    link: 'https://wibbitz.vercel.app/',
+    year: '2024',
   },
   {
-    title: 'Fintech Mobile App',
-    category: 'Mobile Application',
-    description: 'Cross-platform banking application built with React Native and Redux with deep biometric integrations.',
-    image: '/project2.png',
-    link: '#',
-    year: '2025',
+    title: 'Ai Ally',
+    category: 'Web Development',
+    description: 'A Simple UI clone of Ai Ally, built with Next.js and Tailwind CSS, showcasing responsive design and interactive components.',
+    image: '/p2.png',
+    link: 'https://ai-ally-clone.vercel.app/',
+    year: '2024',
   },
   {
     title: 'E-Commerce Dashboard',
