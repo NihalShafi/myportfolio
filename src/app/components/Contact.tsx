@@ -96,8 +96,8 @@ export default function Contact() {
             </a>
             <div style={{ display: 'flex', gap: '0.75rem' }}>
               {[
-                { label: 'GitHub', icon: '⌘', href: '#' },
-                { label: 'LinkedIn', icon: 'in', href: '#' },
+                { label: 'GitHub', icon: '⌘', href: 'https://github.com/NihalShafi' },
+                { label: 'LinkedIn', icon: 'in', href: 'https://www.linkedin.com/in/nihal-shafi-69427521a/' },
                 { label: 'Twitter', icon: '𝕏', href: '#' },
               ].map((social) => (
                 <a

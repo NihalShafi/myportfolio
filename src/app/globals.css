@@ -42,7 +42,7 @@ body::before {
   background-size: 200px 200px;
   opacity: 0.035;
   pointer-events: none;
-  z-index: 1000;
+  z-index: -1;
   mix-blend-mode: overlay;
 }
 
