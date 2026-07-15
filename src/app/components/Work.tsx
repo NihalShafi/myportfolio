@@ -16,12 +16,12 @@ const projects = [
   //   tags: ['React Native', 'Expo', 'Redux'],
   //   emoji: '📱',
   // },
-  {
-    title: 'E-Commerce Platform',
-    description: 'Full-stack e-commerce solution with real-time inventory, payments, and admin dashboard.',
-    tags: ['Next.js', 'Node.js', 'MongoDB'],
-    emoji: '🛒',
-  },
+  // {
+  //   title: 'E-Commerce Platform',
+  //   description: 'Full-stack e-commerce solution with real-time inventory, payments, and admin dashboard.',
+  //   tags: ['Next.js', 'Node.js', 'MongoDB'],
+  //   emoji: '🛒',
+  // },
 ];
 
 export default function Work() {

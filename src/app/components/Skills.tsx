@@ -5,7 +5,7 @@ import { useRef } from 'react';
 
 const skills = [
   { category: 'Frontend', icon: '⚡', items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'] },
-  { category: 'Backend', icon: '🔧', items: ['Node.js', 'Express', 'REST APIs', 'GraphQL'] },
+  { category: 'Backend', icon: '🔧', items: ['Node.js', 'Express', 'REST APIs'] },
   { category: 'Tools', icon: '🛠', items: ['Git', 'Figma', 'VS Code', 'Vercel'] },
 ];
 
