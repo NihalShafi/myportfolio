@@ -100,7 +100,7 @@ export default function Contact() {
               flexWrap: "wrap",
             }}
           >
-            <div className="md:hidden">
+            <div className="sm:hidden">
               <a
                 className="md:hidden"
                 href="mailto:nihalshafi09@gmail.com"
@@ -144,7 +144,9 @@ export default function Contact() {
                 Send an Email
               </a>
             </div>
-            <button
+            <div className="hidden sm:block">
+                <button
+            className=""
               onClick={handleCopy}
               style={{
                 display: "inline-flex",
@@ -172,6 +174,8 @@ export default function Contact() {
               {copied ? <Check size={16} /> : <Copy size={16} />}
               {copied ? "Copied!" : "Copy Email"}
             </button>
+            </div>
+            
 
             <div style={{ display: "flex", gap: "0.75rem" }}>
               {[
