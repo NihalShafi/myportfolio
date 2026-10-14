@@ -21,30 +21,30 @@ const allProjects = [
     link: 'https://ai-ally-clone.vercel.app/',
     year: '2024',
   },
-  {
-    title: 'E-Commerce Dashboard',
-    category: 'SaaS Dashboard',
-    description: 'Comprehensive analytics dashboard providing real-time sales metrics and inventory management.',
-    image: '/project1.png',
-    link: '#',
-    year: '2025',
-  },
-  {
-    title: 'Crypto Wallet UI',
-    category: 'UI/UX Design',
-    description: 'Sleek, glassmorphic crypto wallet interface focusing on security and seamless transaction flows.',
-    image: '/project2.png',
-    link: '#',
-    year: '2024',
-  },
-  {
-    title: 'Social Media Engine',
-    category: 'Full Stack',
-    description: 'High-performance social media backend with real-time websocket chat and Go-powered microservices.',
-    image: '/project1.png',
-    link: '#',
-    year: '2024',
-  },
+  // {
+  //   title: 'E-Commerce Dashboard',
+  //   category: 'SaaS Dashboard',
+  //   description: 'Comprehensive analytics dashboard providing real-time sales metrics and inventory management.',
+  //   image: '/project1.png',
+  //   link: '#',
+  //   year: '2025',
+  // },
+  // {
+  //   title: 'Crypto Wallet UI',
+  //   category: 'UI/UX Design',
+  //   description: 'Sleek, glassmorphic crypto wallet interface focusing on security and seamless transaction flows.',
+  //   image: '/project2.png',
+  //   link: '#',
+  //   year: '2024',
+  // },
+  // {
+  //   title: 'Social Media Engine',
+  //   category: 'Full Stack',
+  //   description: 'High-performance social media backend with real-time websocket chat and Go-powered microservices.',
+  //   image: '/project1.png',
+  //   link: '#',
+  //   year: '2024',
+  // },
 ];
 
 const containerVariants = {
@@ -104,7 +104,7 @@ export default function ProjectsPage() {
               onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M19 12H5M12 19l-7-7 7-7"/>
+                <path d="M19 12H5M12 19l-7-7 7-7" />
               </svg>
               Back to Home
             </Link>
